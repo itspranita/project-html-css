@@ -1,0 +1,76 @@
+.navbar{
+    background-color: black;
+    display: flex; 
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.universal{
+    background-image: url(first\ ich\ image.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+   
+    /* background-image:url(middle\ coffe\ image.png); */
+    background-size: contain ;
+    background-size: 90vh;
+    justify-content: space-around;
+    
+    
+     
+}
+/* .hero h1{
+    color: white;
+    font-size:60px;
+    padding: 100px;
+   
+}
+.hero p{
+    color: white;
+    padding :30px;
+    font-size: medium;
+    gap:15px;
+
+}
+.herobutton{
+    padding: 10px 10px 10px ;
+} */
+.hero{
+    display: flex;
+background-color: black;
+}
+.cup{
+    margin-top: 150px;
+}
+.heroContent h1{
+    color: white;
+    font-size: 50px;
+}
+.heroContent p{
+    color: white;
+
+}
+.heroContent{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.btns a{
+    text-decoration: none;
+
+}
+#btn1{
+    color: white;
+    background-color: black;
+    border:2px solid white;
+    border-radius: 90px ;
+    padding: 10px;
+}

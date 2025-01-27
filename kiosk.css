@@ -1,0 +1,23 @@
+.header{
+    background-image:url(kiosk\ cafee\ main\ img.webp) ;
+    height:100vh;
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
