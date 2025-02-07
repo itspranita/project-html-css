@@ -9,7 +9,7 @@
 </head>
 <body>
     
-
+    <input type="checkbox" id="click">
     <nav class=" navbar">
         <img src="coffee_logo.png" alt="" height="80px" >
         <ul>
@@ -19,48 +19,61 @@
             <li><a href="ichGallery.html">Gallery</a></li>
             <li><a href="ichcontact.html">Contact</a></li>
            </ul>
+           <label for="click"> 
+            <i class="fa-solid fa-bars"></i>
+        </label>  
     </nav>
     
-    <section class="form"  >
-        <form action="">
-            
-           <div class="div1">
-            <h1>Leave Reply!!!</h1>
-           
-           
-            <label for="">Your Name:</label><br>
-            <input type="text" placeholder="Enter Your Name" required>
-            
 
-            <br>
-            <br>
-           <label for="">Mobile No:</label><br>
-            <input type="number" placeholder="Enter Your mobile no" required >
-            <br>
-            <br>
-            <label for="">E-mail Address:</label><br>
-            <input type="email" placeholder="Enter Your email" required>
-            <br>
-            <br>
-            <label for="">write a message:</label><br>
-            <textarea name="message"></textarea>
-            <br>
-            <br>
-            <label for="">Subject:</label><br>
-            <input type="subject"  required>
-
-            <br>
-            <br>
+    <section class="background">
+        <div>
+          <h1>Our Contact</h1>
+          <h3><a href="index.html"><i class="fa-solid fa-house fa-fade"></i>   Home >  </a>Our Contact  </h3> 
+  
         </div>
-        <button>Submit Now</button>
+  
+      </section>
+      <section class="form"  >
+       <form>
+           <div class="index">
+            <div><h1>Leave Reply!!!</h1>
+                <label for="">Your Name:</label><br>
+                <input type="text" placeholder="Enter Your Name" required  class="name">
+                <br>
+                
+               <label for="">Mobile No:</label><br>
+                <input type="number" placeholder="Enter Your mobile no" required  class="mobileno" >
+                <br>
+            
+                <label for="">E-mail Address:</label><br>
+                <input type="email" placeholder="Enter Your email" required class="email">
+                <br>
+                
+                
+                <label for="">Subject:</label><br>
+                <input type="subject"  placeholder="Enter your Subject" class="subject">
+    
+            
+                <br>
+                <label for="">write a message:</label><br>
+                <textarea name="message"></textarea class="textarea"> 
+                    <br>
+                <!-- <diV class="formbtn"><ul type="none"><li ><a href="" class="btn5">Submit Now</a></li></ul> </diV> -->
+            </div>
+            <diV class="formbtn"><ul type="none"><li ><a href="" class="btn5">Submit Now</a></li></ul> </diV>
+            
+            
+        </div>
         
-     </form>
+       
+        
+       </form>
         
 
     </section>
     <section class="footer">
         <div class="image">
-            <img src="coffee  footer.png" alt="" height="60vh">
+            <img src="coffee  footer.png" alt="" class="footerimg">
             <p>Indian Coffee House offers a blend of traditional and <br>popular Indian dishes that cater to a wide range of tastes.</p>
     
             

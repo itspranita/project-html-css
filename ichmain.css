@@ -1,417 +1,1066 @@
 
-/* -------------------------------------------------------HOME PAGE---------------------------------------------------------------------------- */
-body{
-    padding: 0;
+*
+{
+    padding: 0px;
     margin: 0px;
 }
-.universal{
-    background-color: black;
+/* -----NAVBAR----------- */
+.navbar label{
+    display:none;
 
 }
-
+#click:checked~.navbar ul{
+    display: block;
+}
 .navbar{
     background-color: black;
-    color: white;
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: sticky;
-    padding-right: 230px;
+    color: white;
 }
-.navbar ul {
+.navbar ul{
     display: flex;
-   list-style:none;
-   gap: 30px;
+    gap: 50px;
+    list-style: none;
+    margin-left: 100px;
+    font-size: 20px;
 }
 .navbar ul li a{
-   text-decoration: none;
-   color: white;
-}
-/* --------------------------- */
-.maincontent{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 100px ;
-
-
-}
-.content{
-    display: flex;
-    justify-content: space-evenly;
+    text-decoration: none;
     color: white;
-    margin-bottom: 20px;
-   padding-left:  70px;
-   padding-top: 60px;
-    gap: 10px;
 }
-.content h2{
+.img{
+    height:65px;
+    margin-left:-100px;
+}
+/* ---NAVBAR  ENDS----------- */
+
+
+
+
+/* ---------MAIN CONTAINER----------  */
+.maincontainer{
+       display: flex;
+       background-color: black;
+       
+       
+}
+.class1{
+    margin-left: 150px;
+    margin-top: 150px;  
+    
+}
+.class1 h1{
     font-size: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
-.content p{
-    font-family: Arial, Helvetica, sans-serif;
-    list-style: justify;
-    line-height: 30px;
+.class1 p{
+    color: white;
+    font-size: 16px;
+    line-height:30px;
+    margin-top:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .buttons{
     display: flex;
-
-}
-.buttons ul li{
-    text-decoration: none;
-}
-.buttons ul a{
+    gap: 30px;
+    margin-top: 50px;
     
-    text-decoration: none;
+    
 }
 .btn1{
-    gap: 30px;
-    border-radius: 20px;
-    padding: 10px;
-      
-}
-    
-.btn2{
-    gap: 30px;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-   
-.image{
-    display: flex;
-    justify-content:right;
-    
-   
-}
-
-
-/* /-------------------------------------------/ */
-.container{
-  display: flex;
-  background-color: white;
- 
-}
-.innercontent{
-    display: flex;
-    gap: 40px;
-}
-
-.whitecontent h1{
-    font-size: 40px;
-}
-.whitecontent p{
-    color:darkslategray;
-    font-size: 20px;
-  list-style: justify;
-  line-height: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.btn{
-    background-color: maroon;
-    color: white;
-    border-radius: 20px;
-    padding: 10px;
-    font-size:15px;
-}
-/* --------------------------------------------------------------------------------- */
-.container1{
-    /* background-image: url(shortred\ final\ wavey.jpg); */
-    background-color: maroon;
-    color: white;
-    align-items: top;
-    
-}
-
-.cards{
-    display: flex;
-   justify-content: center;
-    gap: 40px;
-    padding: 100px;
-    height: 250px;
-    text-align: center;
-    
-   
-  
-}
-.head{
-    align-items:center;
-    color: white;
-    padding-top: 40px;
-    font-size: 40px;
-}         
-    
- .container1cards{
-    display: flex;
-    align-items: center;
-    border: 2px solid black;
+    text-decoration: none;
+    border: 2px solid white;
     border-radius: 30px;
-    gap: 40px;
-    
- }
-.card1,.card2,.card3,.card4,.card5,.card6{ 
-    border: 2px solid black;
-    border-radius: 20px; 
-   padding: 30px;
-    background-color: black;
-    color: white;
-    align-items: center;
-   
-    
-}
-.cards h6{
-    align-items: center;
-    font-size: 15px;
-}
-.btn{
-    text-decoration: none;
-}
-
-/* ------------------------------------------------------------------------------------------------- */
-.kolkata{
-    align-items: center;
-    font-size: 30px;
-}
-
-.btn ul li a {
-    text-decoration: none;
-   
-
-}
-.btn a{
-    text-decoration: none;
+    padding: 15px;
     color: white;
     
 }
-.container2{
-    background-image: url(black\ chicken2.jpeg);
+.btn1:hover{
+    background-color: maroon;
     color: white;
+    border-color: white;
+}
+.btn2{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;  
+}
+.btn2{
+    background-color: maroon;
+    color: white;
+    border-color: white;
+}
+/* -------END OF MAINCONTAINER------------------------------------ */
+
+
+
+/* -------SERVING BEST COFFEE (CONATINER 1)------------------------ */
+.container1{
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
-    line-height: 30px;
-    padding-right: 70px;
-   padding-top: 100px;
-   padding-left: 100px;
-   list-style: justify;
-}
-.container2 h2{
-    font-size: 40px;
-      font-family: "Rubik Vinyl", serif;
-        font-weight: 400;
-        font-style: normal;
-        line-height: 50px;
-      
-         
-}
-.content1{
-    display: flex;
-    gap: 10px;
-}
-.content2{
-    display: flex;
-    gap: 10px;
-
-}
-.chickenimg{
-    
-    padding-left:100px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-    
-    
-
-
-.footer{
-    background-image: url();
-    background-position: center;
-    color: white;
-    background-color: black;
-    background-size: cover;
-    display: flex;
-    justify-content: left;
-    gap: 100px;
-    padding-bottom: 100px;
-    align-items: center;
-    
-
-    
-}
-.links ul li a{
-    color: white;
-   text-decoration: none;
-
-}
-.image{
-    padding: 30px;
-}
-.links{
-    margin-top: 100px;
-}
-.socialmedia{
+    height: 80vh;
+    width: 100%;
     gap: 20px;
-}
-.background{
-    background-image: url(final\ black\ bg.jpg);
-    color: white;
-    font-size:20px;
-    display: flex;
-    justify-content: center;
-    height: 30vh;
+    
     
 }
-.background h1{
-    font-size: 70px;
-   justify-content: center;
+.disposal{
+    height: 65vh;
+    margin-top: 30px;
+    margin-left: 10px;
 }
-.background a{
-    text-decoration: none;
-    color: white;
-    
-}
-.background h3{
-  padding-bottom: 40px;
-    align-items: center;
-}
-
-
-
-    
-
-
-
-
-
-
-/* -----------------------------------------ABOUT US 
---------------------------------------------------------------------------------------------------------- */
-
-
-
-
-.aboutus{
-   background-image: url(final\ black\ bg.jpg);
-    height: 100px;
-   
-    display: flex;
-    justify-content:center;
-    
-} 
-.aboutus img{
+.class4{
     margin-top: 100px;
-
-}
-.container2{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 24px;
-}
-.para{
-
-    color: grey;
-    margin-top: 400px;
-    text-align:justify;
-    font-size: 20px;
-}
-
-/*--------------------- GALLERY PAGE------------------- */
-.mainheading{
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-
-.wrapper{
-
-    /* height: 100vh; */
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
-   grid-gap: 30px;
-   justify-content: center;
-   border: 2px solid transparent;
-   border-radius:  25px ;
-
-   
-   
-   
-
-
-}
-.wrapper img{
-
-    
-    border-radius: 20px ;
-}
-
-
-/* ---------------------------------------SERVICES-------------------------------------------- */
-.services{
-    display: flex;
-    justify-content: center;
-}
-.service image{
-    margin-top: 100px;
-}
-.servicepara{
-    
-    display: flex;
-    justify-content:center;
-    color: gray;
-    font-size: 20px;
+    gap: 30px;
+     margin-left: 30px;
+     margin-right:50px;
     text-align: justify;
    
 }
-
-    
-
-/* ----------------------------------------CONTACT------------------------------------------------- */
-.contact h1{
-
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
-    padding-left: 50px;
-}
-
-.form{
-
-    background-image: url(final\ pranita\ image.jpg);
-    color: white;
-    display: flex;
-    justify-content: left;
-    padding: 120px;
+.class4 h1{
    
-    align-items: center;
-    
-    
-    
-    
-    
+    /* margin-top: -50px; */
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.info{
+.class4 p{
+   
+    color: grey;
+    margin-top:20px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.list{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 100px;
+    margin-top: 30px;
+    gap: 30px;
 }
-.div1 h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.heading1 h4{
+    font-size: 30px;
+}
+.heading2 h4{
+    font-size: 30px;
+}
+.heading3 h4{
+    font-size: 30px;
+}
+.list p{
+    margin-top: 10px;
+}
+.button1{
+    /* margin-bottom:-100px; */
+    /* margin-top: 100px; */
+
+    position: relative;
+    top: 30px;
+     background-color: maroon;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+     padding: 15px; 
+    gap: 50px;  
+}
+.button1:hover{
+    
+        background-color: black;
+        border: 2px solid white; 
+        border-color: white;
+
+}
+/*---------------END OF SERVING BEST COFFEE (CONATINER 1)----------  */
+
+/* -----OUR POPULAR MENU-----(CONTAINER 2) */
+.container2{
+    background-color: maroon;
+    height: 70vh;
+    padding-left: 20px;
+   padding-right: 20px;
+ 
+   
+}
+.head{
+    text-align:center;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+.head h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.cards{
+   display: flex;
+   gap: 20px;
+   margin-top: 100px;
+   padding-left: 100px;
+   /* padding-right:20px;  */ */
+   
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+    height: 100px;
+    
+    padding: 50px;
+}
+.card1 h4,.card2 h4,.card3 h4,.card4 h4,.card5 h4,.card6 h4{
+    margin-top:-50px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover{
+    border-color: white ;
+}
+/* ------ENS OF OUR POPULAR COFFEEMENU-------- */
+
+/* ----WE ARE HERITAGE(CONTAINER 3)------------ */
+.container3{
+    text-align: center;
+    height: 40vh;
+    margin-top: 50px;
+    
+}
+.container3 h2{
     font-size: 50px;
+    margin-top: 20px;
+    font-family: "Fanwood Text", serif;
+}
+.container3 h4{
+    font-size:25px ;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn3{
+    position: relative;
+    top: 40px;
+     border: 2px solid  white; 
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: maroon;
+    padding:15px;
+   
+   
+}
+.btn3:hover{
+    background-color: black;
+    border: 2px solid white; 
+    border-color: white;
+}
+/* -----------END OF WE ARE HERITAGE-------------- */
+
+/* -----------WE SERVE FOOD-------------------------- */
+.container4{
+  background-image: url(black\ chicken2.jpeg);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.chickencontent{
+    color: white;
+    margin-top: 150px;
+    margin-left: 100px;
+    gap: 40px;
+    text-align: justify;
+    
+}
+.chickencontent h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.chickencontent p{
+    margin-top: 40px;
+    line-height: 20px; 
+    color: grey;
+    font-size: 18px;
+}
+.div0{
+    display: flex;
+    margin-top: 50px;
+     gap: 15px; 
+}
+.content p{ 
+     /* gap: 10px;  */
+    color: white;
+   position: relative;
+   top: -18px;
+}
+.content h4{
+    margin-top:20px;
+    font-size: 20px;
+    position: relative;
+   top: -8px;
+    
+   
+}
+.content1 p{
+    color: white; 
+    position: relative;
+   top: -18px;
+}
+.content1 h4{
+    margin-top: 20px;
+    font-size: 20px;
+    position: relative;
+   top: -8px;
+}
+.containerimg1{
+    height: 60px;
+    
+}
+.containerimg2{
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+}
+.chickenimg0{
+    height: 90vh;
+    width: 90%;
+    margin-top: 50px;
+     margin-left: 90px; 
 }
 
+.btn4{
+    position: relative;
+    top: 37px;
+    left: 20px;
+    color: white;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    padding: 18px;
+    background-color: goldenrod;
+    text-decoration: none;
+    margin-top: 500px;
+}
+/* -----END OF WE SERVE FOOD------  */
+
+/* ------ENJOY YOUR FAV FOOD---------- */
+.container5{
+    height: 100vh;
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Fanwood Text", serif;
+    margin-top: 30px;
+}
+.maincards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 50px;
+  
+}
+.main1:hover,.main2:hover,.main3:hover{
+    background-color: maroon;
+    color: white;
+}
+/* .main1 :hover{
+    color: white;
+    background-color: maroon;
+} */
+.main1{
+   border: 2px solid black;
+   border-radius: 20px;
+   padding: 20px;
+   justify-content: center;
+   text-align: center; 
+     color: grey;
+}
+  
+   
+
+.main1 img{
+    border-radius: 20px;
+    height: 30vh;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.main1 p{
+      text-align: center; 
+     color: grey;
+}
+.main1 h3{
+    font-size: 25px;
+   
+}
+
+.main2{
+    border: 2px solid black;
+   border-radius: 20px;
+   padding: 20px;
+   justify-content: center;
+ 
+}
+.main2 img{
+    border-radius: 20px;
+    height: 30vh;
+    margin-top: 20px;
+    margin-left: 35px;
+ 
+}
+.main2 p{
+    text-align: center;
+    color: grey;
+    font-size: 15px;
+}
+.main2 h3{
+    font-size: 25px;
+}
+.main3 {
+    border: 2px solid black;
+    border-radius: 20px;
+   padding: 20px;   
+   justify-content: center;
+}
+.main3 img{
+    border-radius: 20px;
+    height: 30vh;
+    margin-top: 20px;
+   margin-left: 35px;
+}
+.main3 p{
+    text-align: center;
+    color: grey;
+}
+.main3 h3{
+    font-size: 25px;
+}
+.main1 :hover ,.main2 :hover,.main3 :hover{
+    background-color: maroon;
+    color: white;
+}
+/* .main1 p:hover,.main2 p:hover,.main3 p:hover{
+    color: white;
+} */
+/* ------ END OF ENJOY YOUR FAV FOOD----- */
+
+/* ------QUALITY AND PRIMIUM-------------------- */
+.container6{
+    background-color: black;
+    display: flex;
+    gap: 30px;
+    padding-right: 100px;
+   
+    
+}
+.container6 img{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.waitercontent{
+    color: white;
+    margin-top: 100px;
+   gap: 40px;
+}
+.waitercontent h1{
+    font-size: 40px;
+    font-family: "Fanwood Text", serif;
+}
+.waitercontent p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    text-align: justify;
+    margin-top: 30px;
+}
+.iconcontent1{
+    gap: 100px;
+    display: flex;
+    margin-right: -100px;
+} 
+.iconcontent1 h6{
+   font-size: 15px;
+   position: relative;
+   left: 100px;
+   top: -90px;
+
+}
+.logo1{
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: maroon;
+    position: relative;
+    right: 80px;
+    top: -40px;
+    
+}
+.logo2{
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: maroon;
+    position: relative;
+    right: 70px;
+    top:-40px ;
+}
+   
+
+.iconcontent2{
+    display: flex;
+    margin-left: -100px;
+    gap: 100px;
+    position: relative;
+    left: 200px;
+    top: -100px;
+    font-size: 15px;
+   
+    
+}
+.iconcontent2 h6{
+    font-size: 15px;
+    position: relative;
+    top: -30px;
+}
+.logo3{
+    height: 50px;
+    border: 2px solid white;
+     border-radius: 30px; 
+    background-color: maroon;
+     position: relative;
+    left: -180px;
+    
+}
+.logo4{
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: maroon;
+    position: relative;
+    left: -180px;
+
+}
+/* ----END OF QUALITY AND PRIMIUM------ */
+
+/* -----FOOTER__---- */
+.footer{
+    background-image: url(black\ about\ \ us.jpg);
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 50px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.footerimg{
+    height: 50px;
+    line-height: 20px;
+}
+.links ul li a{
+   
+    color: white;
+    text-decoration: none;
+   
+    
+}
+.background h3 a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contacticon1{
+    border: 2px solid white;
+    border-radius: 30px;
+}
+/* ---------------END OF FOOTER----------- */
+
+/* ----------ABOUT US--------------------- */
+.background{
+    background-image: url(black\ about\ \ us.jpg);
+    height: 30vh;
+    margin-bottom: 20px;
+    color: white;
+  text-align: center;
+  padding: 50px;
+}
+.background h1{
+    font-size: 50px;
+    font-family: "Fanwood Text", serif;
+}
+.aboutus{
+    width: 100%;
+    height: 80vh;
+    text-align: center;  
+ }
+ .aboutimg{
+    height: 50vh;
+}
+.aboutus p{
+    text-align: justify;
+   padding-left: 40px;
+   padding-right: 40px;
+    color: grey;
+    font-size:20px;
+   
+}
+/*------END OF ABOUT US+--------- */
+
+
+/* ---SERVICES-------------------- */
+.service{
+   
+    padding: 100px;
+    
+}
+.serviceimg{
+    align-items: center;
+    width: 70%;
+  margin-left: 200px;
+}
+.servicepara{
+    font-size: 20px;
+    color: grey;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -70px;
+    padding-bottom: 50px;
+}
+/* ------END OF SERVICES--------------- */
+
+/* ----GALLERY------------------------- */
+
+.galleryh{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+    
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+    grid-gap: 30px;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-radius:  25px ;
+    
+}
+.wrapper img{
+  border-radius: 20px ;
+ }
+ /*-------END OF GALLERY-----------  */
+
+ /* -----CONTACT------------- */
+ .form{
+    background-image: url(contact\ date.jpg);
+    height: 80vh;
+    color: white;
+    padding-left: 200px;
+    padding-top: 200px;
+    margin-top: -30px;
+ }
+ .index h1{
+    font-size:50px;
+   
+
+ }
+ .name{
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+.mobileno{
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+.email{
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+.textarea{
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+.subject{
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+.btn5{
+     margin-bottom:-200px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: maroon;
+    position: relative;
+    top: 30px;
+    padding: 20px;
+}
+/* -----CONTACT END--------------------- */
+
+
+/* ---------MEDIA QUERY--------------- */
+@media screen and (max-width:700px){
+   
+    .navbar label{
+        display: block;
+    }
+    #click:checked~.navbar ul{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+        position: absolute;
+         top: 90px; 
+        width: 100px;
+        background-color: brown;
+            
+    }
+    .navbar ul li{
+        padding: 20px;
+    }
+    /* -------------MAIN CONTAINER----------- */
+    .maincontainer{
+        flex-wrap: wrap;
+        height: 70vh;
+    }
+    .class1{
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    .class1 h1{
+        font-size:50px;
+       
+    }
+    .class1 p{
+        font-size: 20px;
+       margin: 10px;
+       margin-top: 50px;
+       text-align: left;
+
+    }
+    .class2{
+        display: none;
+    }
+    
+    /* ----------END OF MAINCONTAINER------------- */
+
+    /* -------SERVING BEST COFFEE------------------- */
+    .container1{
+        flex-wrap: wrap;
+        height: 100vh;
+       
+    }
+    .disposal{
+        height: 30vh;
+        margin-left: -20px;
+    }
+    .class4 h1{
+        font-size: 30px;
+         margin: 5px; 
+        margin-top: -300px;
+    }
+    .class4 p{
+        font-size: 20px;
+        line-height: 20px;
+        
+    }
+    .list{
+        display: inline;
+        position: relative;
+        top: 30px;
+       
+       
+    }
+    .heading1 h4{
+        font-size: 20px;
+    }
+    .heading2 h4{
+        font-size: 20px;
+    }
+    .heading3 h4{
+        font-size: 20px;
+    }
+    .button1{
+        position: relative;
+        top: 70px;
+    }
+    /* ----------END OF WE SERVING BEST COFFEE----------- */
+
+    /* ----------OUR POPULAR MENU------------------------- */
+    .container2{
+        margin-left: -10px;
+        height: 200vh;
+        
+    }
+    .head h1{
+        font-size:40px ;
+        margin-top: 25px;
+    }
+    .cards{
+        display: inline;
+        margin: 10px;
+        position: relative;
+         left: 100px; 
+        gap: 50px;
+      
+       
+      
+    }
+    .card1{
+        height: 30vh;
+        width: 40%;
+         margin-left: 100px;
+         gap: 30px;
+         
+       
+    }
+    .img1{
+        position: relative;
+        left: 30px;
+    }
+    .card1 h4{
+        font-size: 20px;
+    }
+    .card2{
+        height: 30vh;
+        width: 40%;
+        margin-left: 100px; 
+        gap: 30px;
+    }
+    .img2{
+        position: relative;
+        left: 30px;
+    }
+    .card2 h4{
+        font-size: 20px;
+    }
+    .card3{
+        height: 30vh;
+        width: 40%;
+        margin-left: 100px; 
+    }
+    .img3{
+        position: relative;
+        left: 30px;
+    }
+    .card3 h4{
+        font-size: 20px;
+    }
+    .card4{
+        height: 30vh;
+        width: 40%;
+        margin-left: 100px; 
+    }
+    .img4{
+        position: relative;
+        left: 30px;
+    }
+    .card4 h4{
+        font-size: 20px;
+    }
+    .card5{
+        height: 30vh;
+        width: 40%;
+        margin-left: 100px; 
+    }
+    .img5{
+        position: relative;
+        left: 30px;
+    }
+    .card5 h4{
+        font-size: 20px;
+    }
+    .card6{
+        height: 30vh;
+        width: 40%;
+        margin-left: 100px; 
+    }
+    .img6{
+        position: relative;
+        left: 30px;
+
+    }
+    .card6 h4{
+        font-size: 20px;
+    }
+    /* -------END OF OUR POPULAR COFFEE MENU------- */
+
+    /* -------WE ARE HERITAGE--------------------- */
+    .container3{
+        height: 30vh;
+    }
+    .container3 h2{
+        font-size: 40px;
+        padding: 10px
+    }
+    .container3 h4{
+        font-size:30px ;
+    }
+    /* -------------END OF WE ARE HERITAGE------------------- */
+
+    /* ----WE SERVE FOOD -------------------------------- */
+    .container4{
+        flex-wrap: wrap;
+        height: 150vh;
+    }
+    .chickencontent h2{
+        font-size: 40px;
+        text-align: center;
+        margin-top: -90px;
+        padding-right: 100px;
+         margin-left: -40px;  
+         /* margin-right: 30px; */ */
+    }
+    .chickencontent p{
+        text-align: center;
+        padding-right: 100px;
+        margin-left: -50px; 
+        font-size: 20px;
+    }
+    .div0{
+        display: inline;
+        /* position: relative;
+        left: 30px; */
+    }
+    .containerimg1{
+        position: relative;
+        right: 40px;
+        top: 50px;
+        /* bottom: -30px; */
+    }
+    .content{
+        position: relative;
+        left: 50px;
+        top: -30px;
+    }
+    .content p{
+        position: relative;
+        left: -30px;
+        top: -30px;
+    }
+    .containerimg2{
+        position: relative;
+        right: 40px;
+        top: -50px;
+
+    }
+    .content1{
+        position: relative;
+        top: -100px;
+        left: 50px;
+        
+    }
+    .content1 p{
+        position: relative;
+        left: -50px;
+       
+    }
+    .btn4{
+        position: relative;
+        right: 80px;
+        top: -60px;
+        left: 50px;
+
+    }
+    .chickenimg0{
+        height: 50vh;
+        position: relative;
+        top: -100px;;
+        left: -30px;
+    }
+    /* ------------END OF WE SERVE FOOD ----------------- */
+
+    /* ----------------ENJOY YOUR FOOD------------------ */
+    .container5{
+        height: 170vh;
+    }
+     .heading{
+        font-size: 20px;
+     }
+    .maincards{
+        flex-wrap: wrap;
+        padding: 40px;
+        margin-top: -20px;
+    }
+    /* ---------------- END OF ENJOY YOUR FOOD----------------- */
+
+    /* -----------QUALITY AND PRIMIUM------------------------- */
+    .container6{
+        flex-wrap: wrap;
+    }
+    .container6img{
+        height: 40vh;
+       position: relative;
+       right: 30px;
+    }
+    .waitercontent h1{
+      font-size: 25px;
+      position: relative;
+      left: 50px;
+      text-align: center;
+      top: -100px;
+    }
+    .waitercontent p{
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        right: -50px;
+        top: -100px;
+    }
+    
+    
+   
+    /* -------------END OF------------------- */
+
+    /* ----------FOOTER--------------- */
+    .footer{
+        flex-wrap: wrap;
+       
+    }
+
+
+    /* ---------------------ABOUT US+---------- */
+
+    .aboutimg {
+        height: 25vh;
+    }
+    .aboutus{
+        height: 80vh;
+    }
+    /* ------------------services---------------- */
+    .serviceimg{
+        position: relative;
+        left: -150px;
+        height: 20vh;
+        top: -10px;
+    }
+    .servicepara{
+        text-align: justify;
+    }
+    /* ---------------------GALLERY--------- */
+    .wrapper{
+        grid-template-columns:repeat(1,auto);
+    grid-template-rows:repeat(28,auto);
+}
+}
